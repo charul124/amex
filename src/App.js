@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <Router>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path='/footer' element={<Footer/>} />
+      </Routes>
+    </Router>
   );
 }
 
