@@ -4,7 +4,7 @@ export class footer extends Component {
   render() {
     return (
       <>
-      <div className="wave">
+      <div className="wave" style={{marginBottom: "-9px"}}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2A3342" fill-opacity="1" d="M0,160L40,181.3C80,203,160,245,240,256C320,267,400,245,480,224C560,203,640,181,720,197.3C800,213,880,267,960,256C1040,245,1120,171,1200,154.7C1280,139,1360,181,1400,202.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
     </div>
 
@@ -15,9 +15,9 @@ export class footer extends Component {
 				<div className="flex items-center justify-center w-12 h-12 rounded-full">
 					<img src="\images\Group.svg" alt="" />
 				</div>
-				<span className="self-center text-2xl font-semibold text-[35px] text-[white]">ECO-Verve</span>
+				<span className="self-center text-2xl font-semibold text-[35px] text-[#34A853]">ECO-Verve</span>
 			</a>
-            <span><div className="text-sm text-[#a5a5a5]">© 1968 Company Co. All rights reserved.</div></span>
+            <span><div className="text-sm mt-4 ml-12 text-[#a5a5a5]">© 1968 Company Co. All rights reserved.</div></span>
 		</div>
 		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4 mb-4">
 			<div className="space-y-3">
@@ -63,18 +63,7 @@ export class footer extends Component {
 				</ul>
 			</div>
 			<div className="space-y-3">
-				<div className="uppercase dark:text-gray-50 my-4">Social media</div>
-				<div className="flex justify-start space-x-3">
-					<a rel="noopener noreferrer" href="#" title="Facebook" className="flex items-center p-1">
-						<img src="\images\icons-instagram.svg" alt="" />
-					</a>
-					<a rel="noopener noreferrer" href="#" title="Twitter" className="flex items-center p-1">
-						<img src="\images\icons-facebook.svg" alt="" />
-					</a>
-					<a rel="noopener noreferrer" href="#" title="Instagram" className="flex items-center p-1">
-						<img src="\images\icons-twitter.svg" />
-					</a>
-				</div>
+			<button type="submit" className="bg-[#00A82D]" style={{ width: '80%', height: "40px", borderRadius: "4px", color: "white"}}>Subscribe</button>
 			</div>
 		</div>
 	</div>
