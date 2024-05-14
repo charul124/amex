@@ -8,7 +8,7 @@ function ContactPage() {
       </div> */}
       <div style={{ display: 'flex', justifyContent: 'center', maxWidth: '1286px'}}>
         <div style={{ flex: '0 0 50%', paddingRight: '30px' }}>
-          <h2 style={{ fontSize: '35px', fontWeight: 'bold'}}>Let's Stay Connected</h2>
+          <h2 style={{ fontSize: '35px', fontWeight: 'bold', color: '#076F32'}}>Let's Stay Connected</h2>
           <p style={{ marginTop: '28px' }}>It's never been easier to get in touch with Flex.
             Call us, use our live chat widget or email and we'll get back to you as soon as possible!</p>
         </div>
